@@ -1,0 +1,146 @@
+body {
+    background-image: url(./background1.jpg);
+}
+header {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+    background-color: turquoise;
+}
+
+.mainLinks {
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    color:lightcoral;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    margin-bottom: 0%;
+}
+
+h2 {
+    color:lightcoral;
+    font-size: 60px;
+    text-align: right;
+    font-family: 'Zen Loop', cursive;
+    margin-top: 0%;
+    margin-right: 30%;
+}
+
+.box1 {
+    background-color: turquoise;
+}
+
+.box2 {
+    background-color: turquoise;
+    opacity: 0.75;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    margin: 0px 75px;
+}
+
+.picture1 {
+    border-radius: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+
+  .column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    background-color: coral;
+    opacity: 0.8;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.mainTopics {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    padding: 5px;
+}
+
+.columnText {
+    background-color: coral;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+.topics {
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    
+}
+
+.columnImages {
+    border-radius: 15px;
+}
+
+.input {
+    font-size: 40px;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+.whiteBox {
+    background-color: white;
+    opacity: 0.8;
+}
+.findMe {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+}
+
+.myLinks {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+    padding-bottom: 0.5px;
+    color: black;
+}
+
+footer {
+    background-color: darkturquoise;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+    margin-top: 50px;
+}
