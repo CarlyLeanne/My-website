@@ -136,6 +136,26 @@ h2 {
     color: black;
 }
 
+.myAchievements {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.myAchievements > h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.list {
+    font-size: 30px;
+    display: inline;
+    margin: 0;
+}
+
 footer {
     background-color: darkturquoise;
     text-align: center;
