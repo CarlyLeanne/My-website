@@ -43,10 +43,9 @@ h2 {
     opacity: 0.75;
     color:black;
     font-size: 30px;
-    font-weight: bold;
     text-align: center;
     font-family: 'Caveat', cursive;
-    margin: 0px 75px;
+    margin: 20px 75px;
 }
 
 .picture1 {
@@ -54,6 +53,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3%;
     width: 35%;
     height: auto;
 }
@@ -94,6 +94,7 @@ h2 {
     background-color: coral;
     padding: 20px;
     border-radius: 15px;
+    text-align: justify;
     
 }
 
@@ -102,6 +103,7 @@ h2 {
     text-align: center;
     font-family: 'Caveat', cursive;
     font-size: 25px;
+    line-height: 95%;
     
 }
 
@@ -111,7 +113,7 @@ h2 {
 
 .input {
     font-size: 40px;
-    font-family: 'Zen Loop', cursive;
+    font-family: 'Caveat', cursive;
     font-weight: bold;
     text-align: center;
 }
@@ -123,37 +125,57 @@ h2 {
 .findMe {
     text-align: center;
     font-size: 60px;
-    font-family: 'Zen Loop', cursive;
+    font-family: 'Caveat', cursive;
     font-weight: bold;
+}
+
+.huey {
+    display: block;
+    margin: 0.5% auto 3% auto;
+    width: 25%;
+    height: auto;
+    border-radius: 80%;
 }
 
 .myLinks {
     font-size: 45px;
     text-align: center;
-    font-family: 'Zen Loop', cursive;
+    font-family: 'Caveat', cursive;
     font-weight: bold;
     padding-bottom: 0.5px;
     color: black;
+    line-height: 90%;
 }
 
 .myAchievements {
     text-align: center;
-    font-size: 40px;
-    font-family: 'Zen Loop', cursive;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
     font-weight: bold;
     margin-bottom: 0px;
+    line-height: 90%;
 }
 
 .myAchievements > h2 {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     margin-right: 0px;
 }
 
 .list {
     font-size: 30px;
-    display: inline;
     margin: 0;
+    text-align: center;
+    display: inline-block;
+    line-height: 85%;
+}
+
+ul {
+    padding: 0%;
+}
+
+.beforeList {
+    margin-bottom: 1%;
 }
 
 footer {
