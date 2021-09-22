@@ -18,15 +18,49 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-
     </head>
-        <header>
-            <p><a class="mainLinks" href="index.html">Home</a> 💜 <a class="mainLinks" href="./page2.html">My links</a></p>
-    
-        </header>
+
+<body>
+    <style>
+        .parallax {
+          /* The image used */
+          background-image: url("./Images/background1.jpg");
+        
+          /* Set a specific height */
+          min-height: 500px;
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+        
+        <!-- Container element -->
+        <div class="parallax">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light navbarPadding" style="background-color:grey;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" href="./page2.html">My links</a>
+                  <a class="nav-link" href="./page3.html">My achievements</a>
+                  <a class="nav-link" href="./page4.html">Page 4</a>
+                </div>
+              </div>
+            </div>
+          </nav> 
+    </header>
+
         <div class="box1">
             <h1>Gym hair, don't care</h1>
-            <h2> - Carly Leanne</h2>
+            <h2 class="nameHeading"> - Carly Leanne</h2>
         </div>
 
         <div class="whiteBox">
@@ -48,6 +82,7 @@
 
             </div>
         </div>
-
         <footer> 💗 Gym hair, don't care - est. 2018 - website created with love by Carly Leanne 💗 </footer>
-    </body>
+    </div>
+</body>
+</html>

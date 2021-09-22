@@ -17,12 +17,45 @@
         <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     </head>
     <body>
+        <style>
+            .parallax {
+              /* The image used */
+              background-image: url("./Images/background1.jpg");
+            
+              /* Set a specific height */
+              min-height: 500px;
+            
+              /* Create the parallax scrolling effect */
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            </style>
+            
+            <!-- Container element -->
+            <div class="parallax">
         <header>
-            <p> 💜 <a class="mainLinks" href="index.html">Home</a> 💜 <a class="mainLinks" href="./page3.html">My achievements</a> 💜</p>
+            <nav class="navbar navbar-expand-lg navbar-light navbarPadding" style="background-color:grey;">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      <a class="nav-link" href="./page2.html">My links</a>
+                      <a class="nav-link" href="./page3.html">My achievements</a>
+                      <a class="nav-link" href="./page4.html">Page 4</a>
+                    </div>
+                  </div>
+                </div>
+              </nav> 
         </header>
+
         <div class="box1">
             <h1>Gym hair, don't care</h1>
-            <h2> - Carly Leanne</h2>
+            <h2 class="nameHeading"> - Carly Leanne</h2>
         </div>
 
         <div class="whiteBox">
@@ -32,14 +65,52 @@
             <div>
                 <img class="huey" src="./Images/huey.jpg">
             </div>
-            <div class="myLinks">
-            <p> 💜 <a href="https://www.linkedin.com/in/carly-watson-81946b93/" target="_blank">LinkedIn</a> 💜 </p>
-            <p> 💜 <a href="https://www.facebook.com/gymhairdontcarecarly" target="_blank">Gym hair, don't care - Facebook</a> 💜 </p>
-            <p> 💜 <a href="https://www.instagram.com/gym_hairdontcare" target="_blank">Gym hair, don't care - Instagram</a> 💜 </p>
-            <p> 💜 <a href="https://www.instagram.com/madebycarly_p" target="_blank">Made by Carly P - Instagram</a> 💜 </p>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed buttonStyling" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    💜 Linked In 💜
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><a href="https://www.linkedin.com/in/carly-watson-81946b93/" target="_blank" class="linkText">Click here to see my Linked in profile</a></div>
+              </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed buttonStyling" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    💜 Facebook 💜
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><a href="https://www.facebook.com/gymhairdontcarecarly" target="_blank" class="linkText">Click here to see my blog page on Facebook - Gym hair, don't care</a></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed buttonStyling" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    💜 Instagram 💜
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><a href="https://www.instagram.com/gym_hairdontcare" target="_blank" class="linkText">Click here for my blog account on instagram - Gym hair, don't care</a></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed buttonStyling" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      💜 Instagram 💜
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body "><a href="https://www.instagram.com/madebycarly_p" target="_blank" class="linkText">Click here to see my crafting instagram - Made by Carly P</a></div>
+                </div>
+            </div>
+          </div>
         </div>
 
+            <footer> 💗 Gym hair, don't care - est. 2018 - website created with love by Carly Leanne 💗 </footer>
+            </div>
     </body>
-    <footer> 💗 Gym hair, don't care - est. 2018 - website created with love by Carly Leanne 💗 </footer>
 </html>

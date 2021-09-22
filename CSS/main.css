@@ -1,8 +1,6 @@
-body {
-    background-image: url(./background1.jpg);
-}
+
 header {
-    font-size: 45px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Zen Loop', cursive;
     font-weight: bold;
@@ -13,12 +11,17 @@ header {
     color: white;
 }
 
+.navbarPadding {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
 a {
     color: black;
 }
 
 h1 {
-    color:lightcoral;
+    color:rgb(131, 9, 76);
     font-size: 120px;
     text-align: center;
     font-family: 'Zen Loop', cursive;
@@ -26,27 +29,41 @@ h1 {
 }
 
 h2 {
-    color:lightcoral;
+    color:rgb(131, 9, 76);
     font-size: 60px;
     text-align: right;
     font-family: 'Zen Loop', cursive;
     margin-top: 0%;
+}
+
+.nameHeading {
     margin-right: 30%;
 }
 
 .box1 {
     background-color: turquoise;
+    margin-top: 10px;
 }
 
 .box2 {
-    background-color: turquoise;
     opacity: 0.75;
     color:black;
     font-size: 30px;
     text-align: center;
     font-family: 'Caveat', cursive;
     margin: 20px 75px;
+    
 }
+
+.box3 {
+    background: turquoise;
+    transition: background-color 1s ease-out 100ms;
+}
+
+.box3:hover {
+    background-color: #FF1493;
+  }
+
 
 .picture1 {
     border-radius: 500px;
@@ -92,9 +109,10 @@ h2 {
 
 .columnText {
     background-color: coral;
-    padding: 20px;
+    padding: 25px;
     border-radius: 15px;
     text-align: justify;
+    box-shadow:5px 5px 20px 5px rgba(0,0,0,0.33);
     
 }
 
@@ -109,6 +127,7 @@ h2 {
 
 .columnImages {
     border-radius: 15px;
+    box-shadow:5px 5px 20px 5px rgba(0,0,0,0.33);
 }
 
 .input {
@@ -121,7 +140,13 @@ h2 {
 .whiteBox {
     background-color: white;
     opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    text-align: center; 
+    margin-top: 30px;
 }
+
 .findMe {
     text-align: center;
     font-size: 60px;
@@ -137,14 +162,20 @@ h2 {
     border-radius: 80%;
 }
 
-.myLinks {
-    font-size: 45px;
+.buttonStyling {
+    font-family: 'Zen Loop', cursive;
+    font-size: 35px;
+    font-weight: bolder;
     text-align: center;
-    font-family: 'Caveat', cursive;
-    font-weight: bold;
-    padding-bottom: 0.5px;
-    color: black;
-    line-height: 90%;
+    display: block;
+    width: 100%;
+}
+
+.linkText {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 20px;
 }
 
 .myAchievements {
@@ -184,5 +215,26 @@ footer {
     font-size: 30px;
     font-family: 'Zen Loop', cursive;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 30px;
 }
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+
+  body {
+    background-color: #f16059;
+  }
+  .page {
+    width: 80%;
+    max-width: 960px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #f16059;
+    border-radius: 5px;
+  }
+ 
